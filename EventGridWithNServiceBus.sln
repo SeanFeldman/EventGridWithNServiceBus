@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 15.0.26730.12
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NServiceBusEndpoint", "NServiceBusEndpoint\NServiceBusEndpoint.csproj", "{11641841-C7E9-4B49-9688-99E54187A7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridSender", "EventGridSender\EventGridSender.csproj", "{322F6372-3B9C-4AA2-ABF7-3AAE8A10D5B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11641841-C7E9-4B49-9688-99E54187A7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11641841-C7E9-4B49-9688-99E54187A7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11641841-C7E9-4B49-9688-99E54187A7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11641841-C7E9-4B49-9688-99E54187A7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322F6372-3B9C-4AA2-ABF7-3AAE8A10D5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322F6372-3B9C-4AA2-ABF7-3AAE8A10D5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322F6372-3B9C-4AA2-ABF7-3AAE8A10D5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322F6372-3B9C-4AA2-ABF7-3AAE8A10D5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86DEB067-D424-45D9-A2D3-9F9AAEFA231F}
+	EndGlobalSection
+EndGlobal
