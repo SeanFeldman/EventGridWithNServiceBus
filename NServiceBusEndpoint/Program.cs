@@ -63,7 +63,6 @@ class Program
                         Headers = new Dictionary<string, string>
                         {
                             { "NServiceBus.EnclosedMessageTypes", @event.EventType },
-                            { "NServiceBus.MessageIntent", "Publish" },
                             { "EventGrid.topic", @event.Topic },
                             { "EventGrid.subject", @event.Subject },
                             { "EventGrid.eventTime", @event.EventTime.ToString("u") },
